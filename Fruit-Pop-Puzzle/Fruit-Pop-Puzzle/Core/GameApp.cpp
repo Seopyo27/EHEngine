@@ -87,12 +87,12 @@ namespace EHEngine
 		m_fDeltaTime = m_GameTimer->DeltaTimeMS();
 		m_fDeltaTimeAccumulator += m_fDeltaTime;
 
-		// 고정 프레임
-		while (m_fDeltaTimeAccumulator >= m_fixedDeltaTime)
-		{
-			m_sceneManager->FixedUpdate();
-			m_fDeltaTimeAccumulator -= m_fixedDeltaTime;
-		}
+		//// 고정 프레임
+		//while (m_fDeltaTimeAccumulator >= m_fixedDeltaTime)
+		//{
+		//	m_sceneManager->FixedUpdate();
+		//	m_fDeltaTimeAccumulator -= m_fixedDeltaTime;
+		//}
 	}
 
 	void GameApp::Render()
