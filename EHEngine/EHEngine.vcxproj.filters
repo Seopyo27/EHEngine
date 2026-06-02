@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{43a0ec78-dab7-45e2-b23d-efec4b2a798e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{0d47a2fd-8422-4647-a47a-384f8147ac96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render">
+      <UniqueIdentifier>{d543d1c4-5f23-41b9-96d1-c37b28e2291d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Component">
+      <UniqueIdentifier>{1b0a7c4b-12ae-436e-a24b-dcbfa47533c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\GameObject">
+      <UniqueIdentifier>{9b2eb56c-b05a-4fbf-8a32-62db6d923ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Scene">
+      <UniqueIdentifier>{6cfd06d3-f1db-4ed6-945d-0956b9279e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Manager">
+      <UniqueIdentifier>{48ab6abf-d748-4108-97c8-fe54bd797c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components">
+      <UniqueIdentifier>{02f061c7-8020-407d-9e10-16e2a1360657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\External">
+      <UniqueIdentifier>{f98d3fc1-9037-44b5-b017-7dfaf8a257d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\Animator">
+      <UniqueIdentifier>{11307a55-c084-4d7f-88de-db34fd37fec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\Script">
+      <UniqueIdentifier>{1ed673d5-e7ea-4c36-93c6-7ee60661f8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SpriteRenderer">
+      <UniqueIdentifier>{64ca13a4-11cc-4bc5-b51f-00394e4edb35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\Text">
+      <UniqueIdentifier>{97f62d9e-848e-4ae5-a2e6-9ce2ecc5b66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\Transform">
+      <UniqueIdentifier>{9e9399b2-980b-495f-b37e-1bfaed1b2708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{a172287a-97a7-41fc-aed1-d4b8a602762a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Scripts">
+      <UniqueIdentifier>{1d9b4b72-b13a-46d8-88a4-eafe3418ccfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Scenes">
+      <UniqueIdentifier>{1bfe6e49-423d-477e-b375-3421573509f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Types">
+      <UniqueIdentifier>{103761b2-cff4-425c-b00f-41ec21aaf474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Settings">
+      <UniqueIdentifier>{df0328d9-9149-4d9d-a4fd-a25e0464b7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource">
+      <UniqueIdentifier>{d1fbb745-1fea-4b46-a38c-73f1e9bc631f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\GameApp">
+      <UniqueIdentifier>{3fe2b4c5-a1db-42d8-a8e8-360dafff3e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Main">
+      <UniqueIdentifier>{e8f2c983-3b66-477a-9fe9-19f0daf937bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Component.cpp">
+      <Filter>Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\RenderableComponent.cpp">
+      <Filter>Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GameApp.cpp">
+      <Filter>Engine\Core\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GameObject.cpp">
+      <Filter>Engine\Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Scene.cpp">
+      <Filter>Engine\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\InputManager.cpp">
+      <Filter>Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ResourceManager.cpp">
+      <Filter>Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SceneManager.cpp">
+      <Filter>Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="External\GameTimer.cpp">
+      <Filter>Engine\External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\NzWndBase.cpp">
+      <Filter>Engine\External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\RenderHelp.cpp">
+      <Filter>Engine\External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Utillity.cpp">
+      <Filter>Engine\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Animator.cpp">
+      <Filter>Engine\Components\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Script.cpp">
+      <Filter>Engine\Components\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\SpriteRenderer.cpp">
+      <Filter>Engine\Components\SpriteRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Text.cpp">
+      <Filter>Engine\Components\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Transform.cpp">
+      <Filter>Engine\Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SampleScene.cpp">
+      <Filter>Project\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Engine\Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\RenderContext.cpp">
+      <Filter>Engine\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Component.h">
+      <Filter>Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\RenderableComponent.h">
+      <Filter>Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameApp.h">
+      <Filter>Engine\Core\GameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameObject.h">
+      <Filter>Engine\Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Scene.h">
+      <Filter>Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\InputManager.h">
+      <Filter>Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ResourceManager.h">
+      <Filter>Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SceneManager.h">
+      <Filter>Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="External\GameTimer.h">
+      <Filter>Engine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\INC_Windows.h">
+      <Filter>Engine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\NzWndBase.h">
+      <Filter>Engine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\RenderHelp.h">
+      <Filter>Engine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Utillity.h">
+      <Filter>Engine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Animator.h">
+      <Filter>Engine\Components\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Script.h">
+      <Filter>Engine\Components\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\SpriteRenderer.h">
+      <Filter>Engine\Components\SpriteRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Text.h">
+      <Filter>Engine\Components\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Transform.h">
+      <Filter>Engine\Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Types.h">
+      <Filter>Engine\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\OrderInLayer.h">
+      <Filter>Engine\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SampleScene.h">
+      <Filter>Project\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\RenderContext.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
